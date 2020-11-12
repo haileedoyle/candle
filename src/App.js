@@ -11,6 +11,7 @@ function App() {
         {/* specifies that the components beneath are rendered only under certain routes */}
         <Switch>
           <Route path="/">
+            <Header />
             <Home />
           </Route>
         </Switch>
